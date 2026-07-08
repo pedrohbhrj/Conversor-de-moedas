@@ -229,18 +229,18 @@ export default function ConversorDeMoedas(){
                 <div className="flex flex-col bg-white rounded-[10px] px-4 py-2">
                     <div className="flex items-center md:text-[20px] text-[16px] justify-between">
                     <Input type="number" value={de} onChange={(e) => handleDe(e.target.value)} placeholder="R$ 1,00"/>
-                    <Select value={currencyAtualDe} onChange={(e) => handleChange(e.target.value)}  />
+                    <Select aria-label="De moeda" value={currencyAtualDe} onChange={(e) => handleChange(e.target.value)}  />
                     </div>
                 </div>
                 </div>
-                <Button onClick={handleClick} className="self-center md:self-end" variant="secondary"><LucideArrowLeftRight/></Button>
+                <Button aria-label="Trocar a moeda" onClick={handleClick} className="self-center md:self-end" variant="secondary"><LucideArrowLeftRight/></Button>
 
                 <div className="flex flex-col ">
                       <span className="md:self-end font-medium text-(--label-color) md:font-bold md:text-[28px] text-[18px]">Para</span>
                 <div className="flex flex-col bg-white rounded-[10px] px-4 py-2">
                     <div className="flex items-center md:text-[20px] text-[16px] justify-between">
                     <Input  type="number" value={para} onChange={(e) => handlePara(e.target.value)}  placeholder="$ 0,19"/>
-                    <Select  value={currencyAtualPara} onChange={(e) => handleChangeReverse(e.target.value)} reverse={true}/>
+                    <Select aria-label="Para moeda" value={currencyAtualPara} onChange={(e) => handleChangeReverse(e.target.value)} reverse={true}/>
                     </div>
                 </div>
                 </div>
