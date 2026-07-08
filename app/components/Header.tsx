@@ -4,7 +4,7 @@ import Link from "next/link";
 import Button from "./Button";
 export default function Header(){
     return (
-        <header className="flex items-center justify-between mx-5 mt-5 md:mx-30 md:mb-24">
+        <header className="flex items-center justify-between mx-5 mt-5 md:mx-30 mb-24">
             <div>
                 <Image src={logotipo} alt="Logo conversor moedas"></Image>
             </div>

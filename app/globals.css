@@ -13,6 +13,8 @@
   --background-color: #F0F8FF;
   --text-color: #F0F8FF;
   --card-color:#DAEDFF;
+  --placeholder-color: #B1BCC7;
+  --label-color:#2E353C;
   --font-texto: var(--font-inter);
   --font-titulo: var(--font-poppins);
 }
