@@ -13,6 +13,7 @@ const fontPoppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://cm-conversor-vercel.app'),
   title: 'Conversor de Moedas em Tempo Real | Cotações Hoje',
   description: 'Converta Dólar, Euro, Real e outras moedas instantaneamente com taxas de mercado atualizadas em tempo real. Gratuito e rápido.',
   keywords: ['conversor de moedas', 'cotacao dolar hoje', 'converter euro para real', 'cambio real time'],
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Meu Conversor',
     images: [
       {
-        url: 'https://cm-conversor-vercel.app', // Imagem que aparece no card do link
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Preview do Conversor de Moedas',
