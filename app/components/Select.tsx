@@ -18,7 +18,7 @@ const moedasReversa = [...moedas].reverse();
 
 export default function Select({value,reverse,children,className,...rest}:SelectProps){
     return (
-        <select value={value}  className="px-4 text-(--placeholder-color) cursor-pointer bg-transparent border-none outline-none" {...rest}>
+        <select value={value}  className="px-1 md:px-4 text-(--placeholder-color) cursor-pointer bg-transparent border-none outline-none" {...rest}>
             {!reverse ? moedas.map((item) => {
                 return <option key={item} value={item.substring(0,3)}>{item}</option>
                 }): moedasReversa.map((item) => {

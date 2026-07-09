@@ -217,12 +217,12 @@ export default function ConversorDeMoedas(){
     
 
 
-    return <main className="flex flex-col items-center justify-center gap-16 font-texto ">
-            <div className="flex flex-col justify-center items-center font-titulo  gap-4 font-semibold md:font-bold">
-                <h1 className="text-[32px] md:text-[48px] lg:text-[56px] text-(--title-color)">Conversor de moedas global.</h1>
+    return <main className="grow lg:flex  flex-col items-center justify-center gap-4 md:gap-16 font-texto ">
+            <div className="flex flex-col justify-center items-center font-titulo  gap-4 font-semibold md:font-bold mb-4">
+                <h1 className="text-[26px] md:text-[48px] lg:text-[56px] text-(--title-color) text-center">Conversor de moedas global.</h1>
                 <p className="md:text-[30px] text-(--primary-color)">Faça sua conversão em tempo real.</p>
             </div>
-            <div className="relative flex flex-col md:flex-row items-center justify-center md:pb-20  bg-(--card-color) rounded-[48px] gap-6 px-8 py-5 mx-4">
+            <div className="relative flex flex-col  items-center justify-center  md:flex-row mx-auto my-0 w-full max-w-fit md:pb-20  bg-(--card-color) rounded-[48px] gap-3 px-2 py-5 md:mx-4">
         
                 <div className="flex flex-col w-full md:w-fit">
                       <span className="font-medium text-(--label-color) md:font-bold md:text-[28px] text-[18px]">De</span>
